@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(46, 47, 82);
+  color: white;
+  padding: 2rem;
+}
+
+h1,
+p {
+  text-align: center;
+  padding: 0.2rem;
+}
+
+p,
+h3 {
+  color: gray;
+}
+
+p {
+  border-bottom: 5px solid black;
+  padding-bottom: 2rem;
+}
+
+legend {
+  font-size: x-large;
+  font-weight: bold;
+  border-top: 2px solid black;
+  padding: 2rem 0 0.5rem;
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  margin-top: 5px;
+}
+
+fieldset > .box2 {
+  margin-top: 35px;
+}
+
+label {
+  padding: 1rem 0;
+}
+
+input,
+textarea,
+select,
+button {
+  font-size: 16px;
+  border: none;
+  background-color: rgb(235, 231, 235);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+input,
+label,
+select {
+  color: gray;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+}
+
+input[id="zip"] {
+  width: 30%;
+  margin-bottom: 1.5rem;
+}
+
+input::placeholder {
+  color: lightcoral;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  margin-top: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  background-color: lightskyblue;
+}
+
+button {
+  background-color: rgb(8, 184, 184);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.selection {
+  margin: 0.5rem 0;
+}
+
+.signup {
+  font-size: x-large;
+  font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+
+  h1 {
+    padding-top: 0.6rem;
+  }
+
+  .container {
+    padding: 0 6rem;
+    width: 70%;
+  }
+
+  .form-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .form-box label {
+    flex: 0 0 9rem;
+  }
+
+  .form-box-2 {
+    padding: 0.3rem;
+  }
+
+  .selection {
+    padding-top: 0.8rem;
+  }
+}
