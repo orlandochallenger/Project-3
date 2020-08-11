@@ -50,10 +50,6 @@ fieldset {
   margin-top: 5px;
 }
 
-fieldset > .box2 {
-  margin-top: 35px;
-}
-
 label {
   padding: 1rem 0;
 }
@@ -99,7 +95,9 @@ textarea {
 
 input:focus,
 textarea:focus {
-  background-color: lightskyblue;
+  background-color: rgb(185, 245, 245);
+  transition-duration: 4s;
+  transition-delay: 1s;
 }
 
 button {
@@ -109,13 +107,21 @@ button {
 
 footer {
   text-align: center;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 
 .container {
   margin: 1rem auto;
   width: 90%;
   max-width: 1000px;
+}
+
+.box2 {
+  background-color: rgb(174, 219, 247);
+}
+
+.info-2 {
+  background-color: rgb(174, 219, 247);
 }
 
 .selection {
